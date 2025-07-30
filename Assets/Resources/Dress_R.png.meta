@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 55e4e092efa13c74dab4e7aaeb607821
+guid: fcfb4a532fb13f844b9ea72b0709b25c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5874898043266692758
-    second: Shoes_W_0
+      213: 7094755184316515385
+    second: Dress_R_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shoes_W_0
+      name: Dress_R_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 0
-        width: 330
-        height: 347
+        x: 102
+        y: 10
+        width: 145
+        height: 328
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a69837f2b5b287ea0800000000000000
-      internalID: -5874898043266692758
+      spriteID: 9340c812042a57260800000000000000
+      internalID: 7094755184316515385
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Shoes_W_0: -5874898043266692758
+      Dress_R_0: 7094755184316515385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

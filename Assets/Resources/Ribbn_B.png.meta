@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: beb04e0908e7d1d47b7e9314e8273d34
+guid: 0d396eb5b1ef67b4bb69f5a343e25f72
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8529396467840023370
-    second: Shoes_B_0
+      213: -4988651259406327668
+    second: Ribbn_B_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shoes_B_0
+      name: Ribbn_B_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 0
-        width: 330
-        height: 347
+        x: 18
+        y: 17
+        width: 313
+        height: 287
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4b731695e08e5670800000000000000
-      internalID: 8529396467840023370
+      spriteID: c80e7ce4c10c4cab0800000000000000
+      internalID: -4988651259406327668
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Shoes_B_0: 8529396467840023370
+      Ribbn_B_0: -4988651259406327668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

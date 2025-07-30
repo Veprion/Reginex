@@ -28,7 +28,7 @@ public class SpinSpriteButton : MonoBehaviour
         }
     }
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         // Only respond to mouse clicks if no UI Button is present
         if (GetComponent<Button>() == null && ColorSlotMachine.Instance != null)
