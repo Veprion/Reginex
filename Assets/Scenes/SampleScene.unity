@@ -201,7 +201,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 267930391}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: VideoPlayerController, Assembly-CSharp
         m_MethodName: PlayVideo
         m_Mode: 1
@@ -326,79 +326,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63178997}
   m_CullTransparentMesh: 1
---- !u!1 &267930388
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 267930392}
-  - component: {fileID: 267930391}
-  - component: {fileID: 267930390}
-  - component: {fileID: 267930389}
-  m_Layer: 0
-  m_Name: VideoPlayerController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &267930389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 267930388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd4af5ba3deadee42b5c1349159c2488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 0}
---- !u!114 &267930390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 267930388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd4af5ba3deadee42b5c1349159c2488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 0}
---- !u!114 &267930391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 267930388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd4af5ba3deadee42b5c1349159c2488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 0}
---- !u!4 &267930392
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 267930388}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &286945727
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,6 +915,100 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653709341}
   m_CullTransparentMesh: 1
+--- !u!1 &1672370956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1672370958}
+  - component: {fileID: 1672370957}
+  m_Layer: 0
+  m_Name: Imaginz
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1672370957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672370956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae368a4cf8039143a0667ae679c3c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Alpck_B: {fileID: 21300000, guid: 089fa2e2bc7f6cc4bb0af006bbc06feb, type: 3}
+  Alpck_P: {fileID: 21300000, guid: ef0abc0e99746764795ceb5c2e0f0100, type: 3}
+  Alpck_R: {fileID: 21300000, guid: 9ba516713a726754299d374928107b2e, type: 3}
+  Alpck_W: {fileID: 21300000, guid: 50c9b31ea74f76944b8a4bf3070ced75, type: 3}
+  Anans_B: {fileID: 21300000, guid: f43ced7c34f79734fa63c1c5961e5f71, type: 3}
+  Anans_P: {fileID: 21300000, guid: 890e01c8799ffbc418b4d3e901b6df51, type: 3}
+  Anans_R: {fileID: 21300000, guid: 5f2658c90aea06a4ebe876cd607cd355, type: 3}
+  Anans_W: {fileID: 21300000, guid: 7216672b292437c4f8005f719e3e1ce6, type: 3}
+  Banan_B: {fileID: 21300000, guid: fe56f40b15fd35048a09bbe707c489cb, type: 3}
+  Banan_P: {fileID: 21300000, guid: 5f6ed78c9c1570443b5c6401a6139ef3, type: 3}
+  Banan_R: {fileID: 21300000, guid: 3804edb3c08e6df4896e0c98d550ac64, type: 3}
+  Banan_W: {fileID: 21300000, guid: f1616f9479075834283a683da888593c, type: 3}
+  Bunny_B: {fileID: 21300000, guid: a99fa80991413d94ba6d3683247fc0e7, type: 3}
+  Bunny_P: {fileID: 21300000, guid: a75660762731a364cbde4577b698c25b, type: 3}
+  Bunny_R: {fileID: 21300000, guid: 4c04e527a37d0024ba06be31d2958305, type: 3}
+  Bunny_W: {fileID: 21300000, guid: cf18558ce45ee6243b5eafff9650beaa, type: 3}
+  Ccnut_B: {fileID: 21300000, guid: 5073b9b9ae27bc8438982a9e31ec49bc, type: 3}
+  Ccnut_P: {fileID: 21300000, guid: cd6d9757dfbc98c419bfed0dfc43cde7, type: 3}
+  Ccnut_R: {fileID: 21300000, guid: a41b096e0a93192439972a932269fa27, type: 3}
+  Ccnut_W: {fileID: 21300000, guid: c216aedb7038fa14c9d8d74376116b0a, type: 3}
+  Dress_B: {fileID: 21300000, guid: 0e2562469090b98478293b4415a49099, type: 3}
+  Dress_P: {fileID: 21300000, guid: d15e79c7ad4395249ae608a998175b74, type: 3}
+  Dress_R: {fileID: 21300000, guid: fcfb4a532fb13f844b9ea72b0709b25c, type: 3}
+  Dress_W: {fileID: 21300000, guid: 90a383539bcf615449e2dd3e19840ec2, type: 3}
+  Jwlry_B: {fileID: 21300000, guid: fe066bb683694714bb08eede9c8d1364, type: 3}
+  Jwlry_P: {fileID: 21300000, guid: 54df73abd22fbfa4cb51ed2650775df3, type: 3}
+  Jwlry_R: {fileID: 21300000, guid: f2081a57f4dd5c247bcc4bc90415deaa, type: 3}
+  Jwlry_W: {fileID: 21300000, guid: df81613186ce6ac4aabaadd372c4bd63, type: 3}
+  Kitty_B: {fileID: 21300000, guid: e4005ab852648f1428d61cdd907fc9c2, type: 3}
+  Kitty_P: {fileID: 21300000, guid: 18c98cf940eca6141b2cd9d98fc7a5b1, type: 3}
+  Kitty_R: {fileID: 21300000, guid: b54ab36813a955a4c807b43687ef99cb, type: 3}
+  Kitty_W: {fileID: 21300000, guid: 40b5d11b75b2d91439edcade21d745ff, type: 3}
+  Levanup: {fileID: 21300000, guid: aff44e7c1bc4f2248b6733770fd4cdbf, type: 3}
+  Levanpu: {fileID: 21300000, guid: abfd8d800f216ae41908c3bca2ea34ed, type: 3}
+  Ponie_B: {fileID: 21300000, guid: 7184b21ef7c973b4bb3db33022266c9e, type: 3}
+  Ponie_P: {fileID: 21300000, guid: fa77746031b092942b3f481dc1f84e43, type: 3}
+  Ponie_R: {fileID: 21300000, guid: fd0c6c0d00f515943a25116353fa5714, type: 3}
+  Ponie_W: {fileID: 21300000, guid: 9935cd10d9e889d49b66f245494ba570, type: 3}
+  Rbrry_B: {fileID: 21300000, guid: 89a83a8e71094a54899c60bf69796e8a, type: 3}
+  Rbrry_P: {fileID: 21300000, guid: 234d0a082b7e42040b5d7f57976b30b2, type: 3}
+  Rbrry_R: {fileID: 21300000, guid: e7fd846428121b745978635a00250e36, type: 3}
+  Rbrry_W: {fileID: 21300000, guid: 20ff48239c48a55469a59ab4da6f89c7, type: 3}
+  Ribbn_B: {fileID: 21300000, guid: 0d396eb5b1ef67b4bb69f5a343e25f72, type: 3}
+  Ribbn_P: {fileID: 21300000, guid: 492da3a28df2a1c45b566b22b621c78d, type: 3}
+  Ribbn_R: {fileID: 21300000, guid: acfddf0868c170a43bb0a7b8de49ee23, type: 3}
+  Ribbn_W: {fileID: 21300000, guid: 9e6b8414ec038b04d825705b45953e72, type: 3}
+  Shoes_B: {fileID: 21300000, guid: beb04e0908e7d1d47b7e9314e8273d34, type: 3}
+  Shoes_P: {fileID: 21300000, guid: 61952b108a7cb33429c090304f285e00, type: 3}
+  Shoes_R: {fileID: 21300000, guid: 9a83783ab9ac19442bbaa83df71962b2, type: 3}
+  Shoes_W: {fileID: 21300000, guid: 55e4e092efa13c74dab4e7aaeb607821, type: 3}
+--- !u!4 &1672370958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672370956}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1249.285, y: 294.81503, z: -8.143146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -995,4 +1016,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 286945731}
-  - {fileID: 267930392}
+  - {fileID: 1672370958}

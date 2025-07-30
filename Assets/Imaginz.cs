@@ -1,0 +1,56 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class Imaginz : MonoBehaviour
+{
+    public Sprite Alpck_B;
+    public Sprite Alpck_P;
+    public Sprite Alpck_R;
+    public Sprite Alpck_W;
+    public Sprite Anans_B;
+    public Sprite Anans_P;
+    public Sprite Anans_R;
+    public Sprite Anans_W;
+    public Sprite Banan_B;
+    public Sprite Banan_P;
+    public Sprite Banan_R;
+    public Sprite Banan_W;
+    public Sprite Bunny_B;
+    public Sprite Bunny_P;
+    public Sprite Bunny_R;
+    public Sprite Bunny_W;
+    public Sprite Ccnut_B;
+    public Sprite Ccnut_P;
+    public Sprite Ccnut_R;
+    public Sprite Ccnut_W;
+    public Sprite Dress_B;
+    public Sprite Dress_P;
+    public Sprite Dress_R;
+    public Sprite Dress_W;
+    public Sprite Jwlry_B;
+    public Sprite Jwlry_P;
+    public Sprite Jwlry_R;
+    public Sprite Jwlry_W;
+    public Sprite Kitty_B;
+    public Sprite Kitty_P;
+    public Sprite Kitty_R;
+    public Sprite Kitty_W;
+    public Sprite Levanup;
+    public Sprite Levanpu;
+    public Sprite Ponie_B;
+    public Sprite Ponie_P;
+    public Sprite Ponie_R;
+    public Sprite Ponie_W;
+    public Sprite Rbrry_B;
+    public Sprite Rbrry_P;
+    public Sprite Rbrry_R;
+    public Sprite Rbrry_W;
+    public Sprite Ribbn_B;
+    public Sprite Ribbn_P;
+    public Sprite Ribbn_R;
+    public Sprite Ribbn_W;
+    public Sprite Shoes_B;
+    public Sprite Shoes_P;
+    public Sprite Shoes_R;
+    public Sprite Shoes_W;
+}
